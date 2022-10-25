@@ -216,6 +216,7 @@ def user_stats(df):
 
 
 def display_data(df):
+    # Get input and display details of each trip in steps of 5
     view_data = input("Would you like to view 5 rows of individual trip data? Please enter yes or no?").lower()
     start_loc = 0
     while (view_data == "yes"):
