@@ -4,13 +4,15 @@
 18-October-2022
 
 ### Project Title
-The Study of Bike Sharing in US 
+The Study of Bike Sharing in US
 
 ### Description
-Describe what your project is about and what it does
+This project studies the user trends and statistics of bike sharing in the US. The study is conducted on 3 states in the US, namely Chicago, New York and Washington. It includes a filter which allows the user to select the state and period which is of interest.
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
