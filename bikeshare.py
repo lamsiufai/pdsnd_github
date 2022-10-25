@@ -29,6 +29,7 @@ def get_filters():
            break
 
     # get user input if they want to filter by momth or day
+    # user input needs to be in small letters
     filter = input("Would you like to filter the data by \'month\', \'day\', \'both\' or \'all\' for no filter?")
     if filter == "month":
     # get user input for month (all, january, february, ... , june)
