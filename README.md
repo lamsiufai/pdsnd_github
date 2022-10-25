@@ -7,7 +7,7 @@
 The Study of Bike Sharing in US
 
 ### Description
-This project studies the user trends and statistics of bike sharing in the US. The study is conducted on 3 states in the US, namely Chicago, New York and Washington. It includes a filter which allows the user to select the state and period which is of interest.
+This project studies the user trends and statistics of bike sharing in the US. The study is conducted on 3 states in the US, namely Chicago, New York City and Washington. It includes a filter which allows the user to select the state and period which is of interest.
 
 ### Files used
 chicago.csv
