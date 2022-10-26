@@ -29,6 +29,7 @@ def get_filters():
            break
 
     # get user input if they want to filter by momth or day
+    # user input needs to be in small letters
     filter = input("Would you like to filter the data by \'month\', \'day\', \'both\' or \'all\' for no filter?")
     if filter == "month":
     # get user input for month (all, january, february, ... , june)
@@ -93,7 +94,8 @@ def load_data(city, month, day):
 
     # filter by day of week if applicable
     if day != 'all':
-        # filter by day of week to create the new dataframe
+        # filter by day of week to create the new dataframe.
+        # 'day_of_week' in df is displayed with first alphabet in Capital
         df = df[df['day_of_week'] == day.title()]
 
 
@@ -216,6 +218,7 @@ def user_stats(df):
 
 
 def display_data(df):
+    # Get input and display details of each trip in steps of 5
     view_data = input("Would you like to view 5 rows of individual trip data? Please enter yes or no?").lower()
     start_loc = 0
     while (view_data == "yes"):
